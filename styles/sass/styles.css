@@ -1,27 +1,31 @@
 html {
   background-color: #FFF5E4;
 }
+
 .container {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
+
 .diceFlex {
   display: flex;
   flex-direction: wrap;
   justify-content: center;
 }
+
 .dice {
   text-align: center;
   width: 45%;
 }
+
 .dice img {
   width: 55%;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 6rem;
   color: #EE6983;
 }
@@ -30,7 +34,7 @@ button {
   text-align: center;
   margin: 20px;
   padding: 5px 20px;
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
   font-size: 1.7rem;
   border-radius: 10px;
   background-color: #FFC4C4;
@@ -50,12 +54,11 @@ a:hover {
   color: #FFF5E4;
 }
 
-
 p {
   font-size: 2rem;
   margin-bottom: 10px;
   color: #EE6983;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 img {
@@ -67,12 +70,11 @@ footer {
   background-color: #FFC4C4;
   color: #FFF5E4;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 1rem;
 }
 
-
-@media only screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .dice img {
     width: 70%;
   }
@@ -83,10 +85,10 @@ footer {
     font-size: 1.5rem;
   }
 }
-
-@media only screen and (max-width: 560px) {
+@media (max-width: 560px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
+    margin-top: 80px;
   }
   button {
     margin-top: 0;
@@ -94,4 +96,4 @@ footer {
   .dice img {
     width: 80%;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
