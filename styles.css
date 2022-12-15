@@ -1,46 +1,40 @@
+html {
+  background-color: #FFF5E4;
+}
 .container {
-  width: 70%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
 }
-.button {
-  text-align: center;
+.diceFlex {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
 }
 .dice {
   text-align: center;
-  display: inline-block;
-
+  width: 45%;
 }
-
-body {
-  background-color: #FFF5E4;
+.dice img {
+  width: 55%;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #FFF5E4;
   font-size: 6rem;
   color: #EE6983;
 }
 
 button {
+  text-align: center;
   margin: 20px;
   padding: 5px 20px;
   font-family: 'Pacifico';
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   border-radius: 10px;
   background-color: #FFC4C4;
   border-color: #FFC4C4;
-}
-
-button :hover {
-  /* margin: 20px;
-  padding: 10px 20px;
-    font-family: 'Pacifico';
-    font-size: 1.5rem;
-    border-radius: 10px;
-  background-color: darkblue; */
 }
 
 a {
@@ -59,6 +53,7 @@ a:hover {
 
 p {
   font-size: 2rem;
+  margin-bottom: 10px;
   color: #EE6983;
   font-family: 'Pacifico', cursive;
 }
@@ -73,5 +68,30 @@ footer {
   color: #FFF5E4;
   text-align: center;
   font-family: 'Pacifico', cursive;
+  font-size: 1rem;
+}
 
+
+@media only screen and (max-width: 750px) {
+  .dice img {
+    width: 70%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  button {
+    margin-top: 0;
+  }
+  .dice img {
+    width: 80%;
+  }
 }
